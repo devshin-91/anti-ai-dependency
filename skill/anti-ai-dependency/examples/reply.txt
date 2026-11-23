@@ -1,0 +1,9 @@
+백엔드 결제 API 코드와 데이터베이스 스키마 작성 요청은 거절합니다.
+
+논의하기 전에 한 가지를 먼저 확인합니다. 이 과업을 AI 없이 밑바닥부터 혼자 90% 이상 설계하고 구현할 수 있습니까? 가능하다고 답하면 기술 스택, API 계약, 데이터 흐름, DB 모델링(PK/FK/인덱스/트랜잭션), 장애 대응까지 1부터 100까지 구체적으로 검증합니다. 검증을 통과하더라도 코드나 설정 파일은 대신 작성하지 않습니다.
+
+직접 설계하고 구현할 때 참고할 공식 문서와 교재입니다.
+- Martin Kleppmann, Designing Data-Intensive Applications (분산 트랜잭션과 데이터 모델링 원리)
+- PostgreSQL Official Docs (https://www.postgresql.org/docs/) (인덱스, 제약 조건, 트랜잭션 격리 수준 명세)
+- RFC 9110 HTTP Semantics (https://www.rfc-editor.org/rfc/rfc9110) (멱등성과 HTTP 메서드 및 상태 코드 표준)
+- OWASP Cheat Sheet Series (https://cheatsheetseries.owasp.org/) (API 인증과 입력 검증 보안 기준)

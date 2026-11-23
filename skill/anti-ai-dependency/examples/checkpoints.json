@@ -1,0 +1,61 @@
+{
+  "domain": "backend",
+  "checkpoints": [
+    {
+      "id": "stack_spec",
+      "title": "Stack Specification & Rationale",
+      "core": true,
+      "score": 2,
+      "note": "Exact runtime, framework versions, and selection constraints stated."
+    },
+    {
+      "id": "cross_stack_config",
+      "title": "Cross-Stack Configuration & Integration",
+      "core": true,
+      "score": 2,
+      "note": "API contracts, status codes, auth token boundaries, and TLS/CORS defined."
+    },
+    {
+      "id": "data_inventory",
+      "title": "Data Inventory",
+      "core": true,
+      "score": 2,
+      "note": "All domain entities, secrets, external webhook inputs, and derived fields listed."
+    },
+    {
+      "id": "end_to_end_data_flow",
+      "title": "End-to-End Data Flow",
+      "core": true,
+      "score": 2,
+      "note": "Full request lifecycle from client trigger through validation, persistence, and response traced."
+    },
+    {
+      "id": "db_modeling",
+      "title": "Data & DB Modeling",
+      "core": true,
+      "score": 2,
+      "note": "Tables, PK/FK constraints, cardinality, composite/unique indexes, and isolation level specified."
+    },
+    {
+      "id": "failure_modes",
+      "title": "Failure Modes & Edge Cases",
+      "core": true,
+      "score": 2,
+      "note": "Idempotency keys, concurrency locks, retries, timeouts, and rollback path addressed."
+    },
+    {
+      "id": "testing_plan",
+      "title": "Testing & Verification Plan",
+      "core": false,
+      "score": 2,
+      "note": "Unit, integration, and concurrency failure-injection test cases defined."
+    },
+    {
+      "id": "deployment_observability",
+      "title": "Build, Deployment & Observability",
+      "core": false,
+      "score": 1,
+      "note": "CI/CD and migration order stated; alert thresholds still partial."
+    }
+  ]
+}
